@@ -1,0 +1,1 @@
+# lenovo-ideapad-700-15isk-macos-hackintosh

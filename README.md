@@ -29,6 +29,8 @@
 ## What is not working:
 - HDMI unplugging: For some reason, when you unplug the HDMI, the internal screen remains black. The solution is that put the laptop into sleep BEFORE plug in the cable. Sleep -> Wakeup -> Plug in HDMI, this way it works every unplug until reboot.
 - Netflix on Safari (and DRM contents like Apple Music's Beats1 radio and Apple TV+)
+- Apple Watch Unlock and Instant Hotspot is a little bit buggy, sometimes not working. This is a hardware issue, because the DW1560 is not a native card. If you do care about these, consider buying a Broadcom BCM94360NG instead of the DW1560. (if you do buy the broadcom one, dont forget to delete all the wifi related kexts!)
+
 
 ## Other programs to use:
 - freqVectorsEdit.sh (https://github.com/Piker-Alpha/freqVectorsEdit.sh) to change MacBookPro13,1's 1.2GHz low-mode to 0.8GHz

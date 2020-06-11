@@ -30,6 +30,8 @@
 - HDMI unplugging: For some reason, when you unplug the HDMI, the internal screen remains black. The solution is that put the laptop into sleep BEFORE plug in the cable. Sleep -> Wakeup -> Plug in HDMI, this way it works every unplug until reboot.
 - Netflix on Safari (and DRM contents like Apple Music's Beats1 radio and Apple TV+)
 - Apple Watch Unlock and Instant Hotspot is a little bit buggy, sometimes not working. This is a hardware issue, because the DW1560 is not a native card. If you do care about these, consider buying a Broadcom BCM94360NG instead of the DW1560. (if you do buy the broadcom one, dont forget to delete all the wifi related kexts!)
+- Internal SDCard reader 
+- OBVIOUSLY the Nvidia card (DONT forget to disable in bios, otherwise it's running all the time sucking power!!!)
 
 
 ## Other programs to use:
@@ -38,6 +40,10 @@
 - ALCPlugFix (https://www.tonymacx86.com/attachments/alcplugfix-zip.284678/) to fix the headphone combojack issue
 - one-key-hidpi (https://github.com/xzhih/one-key-hidpi) to enable HiDPI
 - Hackintool (https://www.tonymacx86.com/threads/release-hackintool-v3-x-x.254559/) to disable hibernate mode and sleepimage
+
+## BIOS settings:
+- Disable eGPU
+- Disable Secure Boot (or sign Clover)
 
 ## Note:
 - For some reason, in the setup and in the recovery stage of macOS, the ApplePS2SmartTouchpad kext is not loading. I haven't been able to find a reason for it, but you can use an USB mouse and keyboard for that time. After install, the kext is loading and working 100% of the time, so i'm not bothered. 
